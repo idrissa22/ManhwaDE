@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/fontawesome.css" integrity="sha512-NQCKOSsUyZsvf5ItxWh1bR2vlY0cgw1Rx9tJRLJr31GT9oxCno9uwtiVmVFgN2BlHo1jmwjtH8ivIaob4YF+jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/Home.css">
+       
+       
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a id="u" href="/">          <img id="bild3" src="emperor.png" alt="">          Manhwa-Deutsch </a>
+            <img       id="bild" src="menu.png" alt="">
+            <div id="menu1">
+                <img id="bild2"     src="delete.png" alt="">
+                
+                <ul>
+              
+                    <a href="/Home">Home </a>
+                    <a href="/Ideen">Ideen</a>
+                    <a href="/News">News</a>
+                    <a href="/spenden">Unterstützen</a>
+                    <a href="/Abstimmungen">Abstimmungen</a>
+                
+                </ul>
+            </div>
+        </nav>
+    </section>
+<section id="Medien">
+    <span >Soziale Medien:</span>
+    <span id="me">
+        <img src="tiktok.png" alt="">
+        <img src="instagram.png" alt="">
+        <img src="twitter.png" alt="">
+    </span>
+</section>
+
+
+    <script>
+      
+      
+        var menuz = document.getElementById("menu1")
+        
+        console.log()
+        document.getElementById("bild").onclick= function j () {
+       
+
+
+           
+         
+   menuz.style.right= "0"
+menuz.style.top="0"
+   console.log("hallo")
+        }
+
+        document.getElementById("bild2").onclick=  function menuzu() {
+        
+            menuz.style.right= "-200px"
+        }
+    
+    </script>
+</body>
+</html>

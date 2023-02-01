@@ -1,0 +1,273 @@
+
+body {
+    padding: 0;
+ scroll-behavior: smooth;  
+  margin: 0;
+ 
+
+}
+#suchj {
+    display: flex;
+}
+
+#lo {
+    position: absolute;
+    background-color: white;
+    
+    margin-top: 7px;
+    border-radius: 3%;
+}
+#bif {
+    border:1px solid gray ;
+    padding: 4%;
+    border-radius: 3%;
+   
+}
+
+#bes {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: gainsboro;
+    font-size: 0.7rem;
+}
+
+#titel {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.beschreibung {
+    display: flex;
+    text-align: center;
+}
+#nummer {
+    background-color:#6B3B84 ;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    width: 11%;
+    
+    padding: 1%;
+    color: white;
+    font-weight: bolder;
+}
+#head {
+    display: flex;
+  
+}
+.card-title {
+    margin-left: 5%;
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-size: 1rem;
+    color: white;
+}
+#news {
+    padding: 4%;
+   
+}
+#ranking{
+    padding: 4%;
+    display: none;
+}
+#ü h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#ü p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#button {
+    padding-top: 3%;
+    
+}
+#bu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#ne {
+    width: 50%;
+    border: 1px grey;
+}
+
+#ra {
+    width: 50%;
+    border: 1px grey;
+}
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 0px;
+    border-radius: 1.2%;
+}
+#suchb {
+    display: flex;
+}
+.dis {
+    background-color: grey;
+   border-radius: 4px;
+   padding-left: 5px;
+   color: white;
+   font-weight: bold;
+   font-size: 1.07rem;
+}
+#sec {
+    display: flex;
+    margin-top: 4px;
+    
+}
+#sec:hover {
+    background-color: beige;
+}
+#fo {
+border-radius: 2px;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+#fotob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#over {
+    margin-left: 13px;
+}
+
+#over a {
+    text-decoration: none;
+   font-weight: bolder;
+}
+#over p {
+    font-weight: 50;
+    color: grey;
+    font-size: 10px;
+}
+
+#hinzufügen {
+    border-radius: 3px;
+    border: 0px;
+    background-color: #6B3B84;
+  color: white;
+    font-weight: bolder;
+}
+#hinzufügen:hover {
+    background: grey;
+}
+
+.new::after {
+    content: "";
+    bottom: 0;
+    right: 0;
+    
+    background-color:#33044c ;
+    height: 10px;
+width: 0%;
+ display: block;
+
+ transition: 0.3s ease-in-out;
+   
+}
+.ran::after {
+    content: "";
+    bottom: 0;
+    left: 0;
+    background-color: #33044c;
+    height: 10px;
+width: 0%;
+ display: block;
+ 
+ transition: 0.3s ease-in-out;
+   
+}
+.new:hover::after {
+    width: 100%;
+}
+.ran:hover::after {
+    width: 100%;
+}
+
+.active:hover::after{
+    width: 100%;
+
+
+}
+.ran h4:hover {
+    font-size: 1.35rem;
+}
+h4 {
+    color:#33044c ;
+}
+.new h4:hover {
+    font-size: 1.35rem;
+}
+#suchm {
+    position: fixed;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    top: 20px;
+    background: #6B3B84;
+}
+#j {
+    position: absolute;
+    color: red;
+    top: 0;
+    left: 0;
+}
+#a  {
+    text-decoration: none;
+    
+
+
+    font-weight: bolder;
+    font-size:1.4rem;
+    width: 100%;
+    margin-left: 5%;
+}
+#star {
+    display: flex;
+    align-items: center;
+}
+.fa-star {
+    color: yellow;
+    font-size: 1.55rem;
+}
+.ca {
+   
+}
+#liz {
+    
+    
+   
+}
+.card {
+    width: 100%;
+    
+
+}
+
+
+@media only screen and (min-width: 760px) {
+   
+  .card-img-top {
+    width: 50%;
+    margin-left: 20%;
+    height: 500px;
+  }
+  
+}
