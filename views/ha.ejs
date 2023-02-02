@@ -11,7 +11,12 @@
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <title>ManhwaDEU</title>
+
 
 
    
@@ -51,7 +56,7 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Ranking
                 </a>
-                <ul class="dropdown-menu dropdown-menu-end" style="background: rgba(0,0,0,0); border: 0px" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu dropdown-menu-end" style="background: #6B3B84; border: 0px" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">100 Besten Manhwa</a></li>
                   <li><a class="dropdown-item" href="#">25 Besten Manhwa 2022</a></li>
                   <li>
@@ -95,7 +100,7 @@
 
       <article class="gr" id="artikelbox" style="padding: 3%; ">
         <% for(let x of ft) { %>
-        <div class="card" style="border-radius: 10px; border: none ;">
+        <div class="card" style="border-radius: 10px; border: none ; position: unset;">
             <img class="card-img-top"    src="<%= x.Cover %>" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title"><%= x.Titel %></h5>
