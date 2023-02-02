@@ -7,4 +7,3 @@ res.render("le.ejs",{sat:fa})
 })
 module.exports=router;
 
-console.log(fa.Horror.Manhwas)

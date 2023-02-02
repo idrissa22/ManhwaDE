@@ -48,7 +48,7 @@ function se(message,rt) {
   }
 
 app.get("/", (req,res)=> {
-    console.log("ha.ejs")
+   
     res.render("ha.ejs",{ft:ft})
 })
 
@@ -56,7 +56,7 @@ app.get ("/Ars", (req,res) => {
     res.render("Ars.ejs")
     })
 var tgh= lo[2]
-    console.log(ManhwaSeiten)
+    
     app.get("/top20", (req,res) => {
       res.render("le.ejs",{sat:tgh})
     })

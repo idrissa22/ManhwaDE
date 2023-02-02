@@ -1,23 +1,133 @@
 const { DownloadItemsFormat } = require("apify-client");
 
 var house = [{Horror:{
-    Titel: "10 Horror Manhwa",
+    Titel: "Die 15 Besten Manhwa mit Leveling System",
     Beschreibung: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    Datum: "Datum: 10.04.2022",
+    Datum: "Datum: 02.02.2023",
     Verfasser: "Von: MaxManhwa",
 Manhwas:[{
+    Titel:"Dimensional Mercenary",
+    Nummer: "15",
+    Beschriftung:"Würden Sie gerne einen Job finden? Auch wenn es Sie Ihre Seele kostet? Dann sind Sie bei uns genau richtig. Unsere Website mit Ratschlägen für die Stellensuche, SoSe, richtet sich an Menschen, die bereit sind, sogar ihre Seele für einen Arbeitsplatz zu verkaufen; genau, Menschen wie Sie. Haben Sie es mit Engeln oder Dämonen zu tun? Der 30-jährige Schmarotzer Chul Ho Kang hat über diese zwielichtige Website einen Deal abgeschlossen und sogar seine Seele verkauft, um die Chance auf was sonst zu bekommen? Geld! Eine Einladung in die andere Welt für die Schwachen und Unterdrückten der Gesellschaft, um eine Chance zu bekommen, ihr Schicksal zu ändern! Das ist der Auftrag von Chul Ho Kang!Übersetzt mit www.DeepL.com/Translator (kostenlose Version)",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/dimensional_mercenary.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675341972571",
+    status:"am Laufen",
+    Link: ""
+},
+{
+    Titel:"Taming Master",
+    Nummer: "14",
+    Beschriftung:"Jinsung mag wie ein durchschnittlicher College-Student aussehen, aber in der rauen VR-Welt von Kaillan ist er Ian, ein mächtiger Bogenschütze der Stufe 93! Als er plötzlich seinen Charakter zurücksetzt, denken alle, er sei total verrückt! Was sie nicht wissen, ist, dass Jinsung eine mächtige, neue versteckte Klasse freigeschaltet hat. Jetzt ist es schwierig, Monster zu zähmen, und das Aufleveln ist eine Plackerei. Aber als sein VR-liebender Lehrer droht, ihn im Stich zu lassen, hat Jinsung nur zwei Monate Zeit, um aufzusteigen und Ruhm als einziger Zähmungsmeister zu erlangen!",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/tamingmaster.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675342109903",
+    status:"am Laufen",
+    Link: ""
+},{
+    Titel:"Worn Torn Newbie",
+    Nummer: "13",
+    Beschriftung:"Nachdem er gelernt hat, dass 15 miserable Jahre seines Lebens als gescheiterter Spieler ein langer Albtraum waren, ist Lee Eojin froh, wieder ein Neuling zu sein. Eojin schwört, nicht die gleichen Fehler zu wiederholen, und beginnt neu als der heiße Oldtimer. Er besiegt Monster, bekommt süße Ausrüstung und macht genug Teig, um sich für das Leben zu rüsten. Wird Eojin, der von Fans geliebt und von alten und neuen Feinden gehasst wird, das Spiel brechen und triumphieren, oder wird das Spiel ihn wieder brechen?",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/wornantornnewbie.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675342406930",
+    status:"am Laufen",
+    Link: ""
+},{
+    Titel:"Murim Login",
+    Nummer: "12",
+    Beschriftung:"Eine große Anzahl von Monstern kommt aus dem Tor, das die Grenze der Welt ist. Nach vielen Opfern gewannen die Menschen den Kampf gegen Monster durch ihr Erwachen. Jin Taekyung lebt als F-Klasse-Jäger, was die niedrigste Stufe ist. Nachdem Jin eine schwere Zeit hat, bekommt er eine alte Kapsel und geht dann in die Kapsel, die die Welt der Kampfhelden ist. Und das Spielsystem verleiht ihm besondere Fähigkeiten, er wächst zum besten Kampfhelden heran.",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/murimlogin.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675342324291",
+    status:"am Laufen",
+    Link: ""
+},{
+    Titel:"Player Who Can’t Level Up",
+    Nummer: "11",
+    Beschriftung:"Kim Gi-Gyu erwachte als Spieler im Alter von 18 Jahren. Er dachte, sein Leben sei auf dem Weg zum Erfolg, kletterte auf den Turm und schloss die Tore... Aber selbst nachdem er das Tutorial beendet hatte, war er Level 1.Er tötete jeden Tag einen Goblin und war immer noch Level 1. Auch nach 5 Jahren war er immer noch Level 1. Wer hätte gedacht, dass es so einen Spieler geben würde. Niemand wusste es.",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/theplayerwhocant.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675342770100",
+    status:"am Laufen",
+    Link: ""
+},{
+    Titel:"The Tutorial Tower Is Too Tough",
+    Nummer: "10",
+    Beschriftung:"Lee Hojae hatte sein Leben als Pro-Gamer aufgegeben, bis er eines Tages eine mysteriöse Nachricht erhielt: Herzlichen Glückwunsch! Du wurdest in die Tutorial World eingeladen. Fasziniert betritt er das Spiel und wählt selbstbewusst den Schwierigkeitsgrad der Hölle, erfährt aber bald, dass er dort gefangen ist. Mit einer Überlebensrate von nur 0,01% muss Hojae irgendwie die quälenden Herausforderungen des Spiels überwinden, um den wahren Grund herauszufinden, warum er eingeladen wurde. Dieses Tutorial mag schwierig sein, aber seine Geheimnisse sind das, was wirklich höllisch ist.",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/theturtorialis.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675342903606",
+    status:"am Laufen",
+    Link: ""
+},{
+    Titel:"I Am the Sorcerer King",
+    Nummer: "9",
+    Beschriftung:"Sunghoon Lee ist nichts anderes als ein Opfer einer sich verändernden Welt, ein machtloser Mann in einem Land, das von Bestien und Magie befallen ist. Monster aus einer anderen Welt drangen in die Erde ein und brachten eine Krankheit mit sich, die Sunghoons Mutter in einen endlosen Schlaf treibt. Um ihre Arztrechnungen zu bezahlen, trotzte er einem gefährlichen Job als Köder, der von mächtigen Übermenschen namens Awakeners benutzt wurde, um Monster zu jagen. Aber als er sich an der Tür des Todes wiederfand, blitzt das Bild seines vergangenen Lebens durch seinen Kopf. Dort fand er seine Wahrheit: Er ist die Reinkarnation des Zaubererkönigs!",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/iamthescorrer.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675343018019",
+    status:"Beendet",
+    Link: ""
+},{
+    Titel:"Leveling With the Gods",
+    Nummer: "8",
+    Beschriftung:"Vielleicht können Innere Götter niemals Äußere Götter besiegen...so dachte Yuwon Kim, ein tapferer, hochrangiger Krieger, nach einer bitteren Niederlage. Aber Yuwon ist zu hartnäckig, um aufzugeben. Sein Verlust wird zum Beginn einer neuen Reise als Rückkehrer. Mit neuer Entschlossenheit kehrt Yuwon dort zurück, wo er angefangen hat, zerschmettert Monster um Monster und lernt seine Fähigkeiten neu, bevor er den Turm wieder übernimmt. Aber kann er sich durch die Tutorials kämpfen und noch einmal aufsteigen, oder wird seine Eroberung vor ihm zerbröckeln?",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/levelupwith.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675343165894",
+    status:"am Laufen",
+    Link: ""
+},{
+    Titel:"I’m the Max-Level Newbie",
+    Nummer: "7",
+    Beschriftung:"Jinhyuk, ein Spiel-Nutuber, war die einzige Person, die das Ende des Spiels [Tower of Trials] sah. Als die Popularität des Spiels jedoch abnahm, wurde es schwierig für ihn, weiterhin seinen Lebensunterhalt als Spiele-Nuuber zu verdienen. Da er das Ende des Spiels bereits gesehen hatte, war er kurz davor, mit dem Spielen aufzuhören. Aber an diesem Tag wurde [Tower of Trials] Realität, und Jinhyuk, der über jede einzelne Sache im Spiel Bescheid wusste, übernahm alles schneller als irgendjemand es konnte! Ich zeige dir, wie ein echter Profi ist.",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/iamthemaxlevel.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675343275109",
+    status:"am Laufen",
+    Link: ""
+},{
+    Titel:"Overgeared",
+    Nummer: "6",
+    Beschriftung:"Shin Youngwoo ist ein reiner Verlierer im Leben, der auch bei einer Versicherungsgesellschaft hoch verschuldet ist. Er lebt mit seinen enttäuschten Eltern und seiner brillanten jüngeren Schwester zusammen, die einer der besten Schüler an ihrer Schule ist. Selbst in Spielen, wie dem beliebten VRMMORPG-Spiel Befriedigen, ist er ein totaler Verlierer. Aber eines Tages, während er auf einer Suche ist, findet er auf wundersame Weise ein legendäres Buch, das jedem, der es liest, die nie zuvor gesehene legendäre Klasse geben kann! Er plante, es für viel Geld zu verkaufen, aber Glück war immer seine schlimmste Eigenschaft. Durch eine unglückliche Veränderung der Situation war sein Traum nur von kurzer Dauer, da er gezwungen war, den Gegenstand für sich selbst zu verwenden. Sein Leben hat sich seit diesem schicksalhaften Tag für immer verändert...",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/overgeard.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675343434139",
+    status:"Beendet",
+    Link: ""
+},{
+    Titel:"The Gamer",
+    Nummer: "5",
+    Beschriftung:"Was ist, wenn dein Leben wie ein Spiel ist? Was ist, wenn du deinen Status verbessern und mehr Level erreichen kannst? Eine Fantasiewelt kommt direkt auf dich zu! Han Jee-Han, ein normaler Highschool-Schüler, entwickelt plötzlich eine besondere Kraft, in der seine gesamte Welt in eine spielerische Umgebung versetzt wird. Er kann die Machtlevel von Menschen sehen, sich die Werte eines scheinbar normalen Gegenstands ansehen, Fähigkeiten erhalten und sogar aufsteigen! Folge Han Jee-Han, wie er entdeckt, wie er diese Kraft nutzen kann und vielleicht sogar, woher sie kommt.",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/thegamer.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675343577849",
+    status:"Beendet",
+    Link: ""
+},{
+    Titel:"Skeleton Soldier Couldn’t Protect the Dungeon",
+    Nummer: "4",
+    Beschriftung:"Sein einziger Zweck war es, seinen Herrn zu beschützen. Und doch war er machtlos, sie zu beschützen. Aber das Schicksal hält mehr für ihn bereit, als er eine weitere Chance bekommt, seinen Meister erneut zu beschützen und sein Schicksal zu ändern.",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/theskeletonsoldier.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675343695110",
+    status:"am Laufen",
+    Link: ""
+},{
+    Titel:"Second Life Ranker",
+    Nummer: "3",
+    Beschriftung:"Yeon-woo hatte einen Zwillingsbruder, der vor fünf Jahren verschwand. Eines Tages kehrte eine Taschenuhr, die sein Bruder hinterlassen hatte, in seinen Besitz zurück. Im Inneren fand er ein verstecktes Tagebuch, in dem festgehalten war: Wenn du das hörst, werde ich wohl schon tot sein... Obelisk, der Turm des Sonnengottes, eine Welt, in der sich mehrere Universen und Dimensionen kreuzen. In dieser Welt war sein Bruder dem Verrat zum Opfer gefallen, als er den Turm hinaufkletterte. Nachdem Yeon-woo die Wahrheit erfahren hatte, beschloss er, den Turm zusammen mit dem Tagebuch seines Bruders zu besteigen. Yeon-woo durchläuft dann die gleichen Prüfungen und Kämpfe wie sein jüngerer Bruder als anonymer Spieler. Sein Ziel? Besiege den Obeliskturm und räche dich für seinen Bruder. ",
+    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/second.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675160523528",
+    status:"am Laufen",
+    Link: ""
+},
+
+
+
+
+
+
+
+
+{
+    Titel:"The Legendary Moonlight Sculptor",
+    Nummer: "2",
+    Beschriftung:"Der Mann, der von der Welt verlassen wurde, der Mann ein Sklave des Geldes und der Mann, der als legendärer God of War im beliebten MMORPG Continent of Magic bekannt ist. Mit dem Erwachsenwerden beschließt er, sich zu verabschieden, aber der schwache Versuch, etwas für seine Zeit und Mühe zu verdienen, schlägt sich in einer Wirkung nieder, die sich niemand hätte vorstellen können. Durch eine Reihe von Zufällen wird sein legendärer Avatar für 3 Milliarden 90 Millionen Won (2,7 Millionen Dollar) verkauft, was ihm große Freude bereitet, nur um ihn in Verzweiflung zu stürzen, fast alles davon an bösartige Kredithaie zu verlieren. Mit der Enthüllung von Geld durch Spiele steigt er mit neuer Entschlossenheit aus dem Abgrund und tritt in das neue Zeitalter der Spiele ein, angeführt vom ersten Virtual Reality MMORPG, Royal Road. Dies ist die Legende von Lee Hyun auf seinem Weg, Kaiser zu werden, nur mit seinem familiären Herzen, seinem grenzenlosen Verlangen nach Geld, seinem unerwarteten Verstand, seinem fleißig geschmiedeten Körper und dem Talent harter Arbeit, das ihn unterstützt. Dies ist die Legende, dass der Niedrigste zum Stärksten wird. Dies ist die Legende von WEED.",
+    Cover: "",
+    status:"am Laufen",
+    Link: ""
+},
+
+
+
+
+
+
+{
         Titel:"Solo Leveling",
         Nummer: "1",
-        Beschriftung:"Solo Leveling handelt von",
-        Cover: "https://ik.imagekit.io/idrissa66/Manhwa/PIGPEN.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1674833949650",
+        Beschriftung:"10 years ago, after “the Gate” that connected the real world with the monster world opened, some of the ordinary, everyday people received the power to hunt monsters within the Gate. They are known as “Hunters”. However, not all Hunters are powerful. My name is Sung Jin-Woo, an E-rank Hunter. I’m someone who has to risk his life in the lowliest of dungeons, the “World’s Weakest”. Having no skills whatsoever to display, I barely earned the required money by fighting in low-leveled dungeons… at least until I found a hidden dungeon with the hardest difficulty within the D-rank dungeons! In the end, as I was accepting death, I suddenly received a strange power, a quest log that only I could see, a secret to leveling up that only I know about! If I trained in accordance with my quests and hunted monsters, my level would rise. Changing from the weakest Hunter to the strongest S-rank Hunter!",
+        Cover: "https://ik.imagekit.io/idrissa66/Manhwa/solo.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675344063532",
+        status: "Beendet",
         Link: "https://comick.app/comic/solo-leveling"
 
-},{
-    Titel:"Solo Leveling",
-    Nummer: "1",
-    Beschriftung:"Solo Leveling handelt von",
-    Cover: "Nike Air Jordan 1 Mid Linen Sneakers Mens Sz 10 Grey White 554724-082.jpg",
-    Link: "https://comick.app/comic/solo-leveling"
 }]
 }
 
@@ -25,7 +135,7 @@ Manhwas:[{
 },{ Horror: {
     Titel: "10 Horror Manhwa",
     Beschreibung: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    Datum: "Datum: 10.04.2022",
+    Datum: "Datum: 01.02.2023",
     Verfasser: "Von: MaxManhwa",
    Manhwas:[{
     Titel:"PIPGEN",
