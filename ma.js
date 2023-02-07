@@ -1,6 +1,6 @@
 const express = require("express")
 const bodyparser= require("body-parser")
-const mysql = require("mysql")
+
 const eins = require("./eins")
 const zwei = require("./zwei")
 var ManhwaSeiten= require("./Manhwas")
