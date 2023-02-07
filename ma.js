@@ -1,5 +1,6 @@
 const express = require("express")
 const bodyparser= require("body-parser")
+const mysql = require("mysql")
 const eins = require("./eins")
 const zwei = require("./zwei")
 var ManhwaSeiten= require("./Manhwas")
@@ -7,10 +8,14 @@ const nodemailer= require("nodemailer")
 require("dotenv").config();
 
 
+
+
 var message;
 var rt;
 
 const app = express();
+
+
 var lo = require("./dat.js")
 var ft= require("./an.js")
 const { json } = require("body-parser")
@@ -20,6 +25,8 @@ app.set("view engine","ejs")
 app.use(express.static("views"));
 app.use("/eins",eins)
 app.use("/zwei",zwei)
+
+
 
 function se(message,rt) {
     return new Promise((resolve, reject) => {
@@ -56,14 +63,21 @@ app.get ("/Ars", (req,res) => {
     res.render("Ars.ejs")
     })
 var tgh= lo[2]
-    
-    app.get("/top20", (req,res) => {
+var kl= lo[3]
+console.log(kl)
+    app.get("/top15", (req,res) => {
       res.render("le.ejs",{sat:tgh})
     })
 
     app.get ("/ManhwaSeiten", (req,res) => {
-      res.render("ManhwaSeiten.ejs",{Manhwas: ManhwaSeiten})
+      var fk= ManhwaSeiten[0]
+      res.render("ManhwaSeiten.ejs",{Manhwas: fk})
       })
+      app.get ("/news", (req,res) => {
+      
+        var nm = "hallo"
+        res.render("newer.ejs",{lk: kl})
+        })
     app.post("/newsab", async(req,res)=> {
         console.log(req.body)
 
