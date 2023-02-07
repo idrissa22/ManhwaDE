@@ -6,6 +6,8 @@ body {
  
 
 }
+
+
 #suchj {
     display: flex;
 }
@@ -199,6 +201,31 @@ width: 0%;
 .ran:hover::after {
     width: 100%;
 }
+.body {
+    background-color: rgb(117, 117, 117);
+
+}
+.title {
+    display: flex;
+  justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    
+    color: white;
+}
+.title i {
+    margin-right: 5px;
+}
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    color: white;
+}
 
 .active:hover::after{
     width: 100%;
@@ -247,18 +274,62 @@ h4 {
     color: yellow;
     font-size: 1.55rem;
 }
-.ca {
-   
+#hj {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
-#liz {
+#kl {
+    display: flex;
+    justify-content: space-between;
+}
+#kl img{
+    width: 48%;
+    height: 250px;
+    border-radius: 5px 5px 0px 0px;
+}
+.dropdown-item {
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+#kj p {
+    color: rgb(9, 9, 30);
+    font-size: 1rem;
+    font-weight: bold;
+}
+#db {
+    border: 0.8px solid grey;
+    margin-top: 10px;
+    box-shadow: 1px 1px 3px ;
+
+}
+#section {
     
-    
-   
+    padding: 2%;
+}
+#hj h1 {
+    color: white;
+}
+#con {
+    background-color: #6B3B84;
+    padding: 2%;
+    box-shadow: 20px 20px 100px rgba(0, 0, 0,0.57);
+    border-radius: 2%;
+}
+#kj {
+    background-color: white;
+    padding: 3%;
+border-radius:  0px 0px 4px 4px;
 }
 .card {
     width: 100%;
     
 
+}
+
+.ArtikelÜ1 {
+    margin-top: 7px;
 }
 
 
@@ -267,7 +338,13 @@ h4 {
   .card-img-top {
     width: 50%;
     margin-left: 20%;
-    height: 500px;
+    height: 550px;
   }
+  #kl img {
+    height: 500px;
+    width: 40%;
+  }
+
+ 
   
 }

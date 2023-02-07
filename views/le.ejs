@@ -41,7 +41,7 @@
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end" style="background: #6B3B84; border: 0px" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">100 Besten Manhwa</a></li>
-                  <li><a class="dropdown-item" href="#">25 Besten Manhwa 2022</a></li>
+                  <li><a class="dropdown-item" href="top15">25 Besten Manhwa 2022</a></li>
                   <li>
                     
                   </li>
@@ -81,20 +81,24 @@
       </div>
 <% for(let x of sat.Horror.Manhwas) { %>
       
-      <div class="card"  style="border: 0px; border-bottom:10px solid grey;">
+      <div class="card"  style="border: 0px; ">
         <section id="head"> <h1 id="nummer"><%= x.Nummer %></h1>   <h5 class="card-title" > <%= x.Titel %> </h5></section> 
          <img class="card-img-top"      src="<%= x.Cover %>" alt="Card image cap">
         
          <div class="card-body">
           <div class="dis" > Status: <%= x.status %></div>
-            <p class="text-wrap "><%= x.Beschriftung %></p>  
+          <p class="text-wrap "><%= x.Beschriftung %></p>
           <a href="<%= x.Link %>">Link zum Lesen</a>
           
          </div>
        
        <% } %>
-</article>
 
+      
+       
+      
+
+</article>
 
 
 
@@ -121,7 +125,7 @@
             <!-- Twitter -->
             <a
               class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
+              href="https://twitter.com/ManhwaDEU"
               role="button"
               data-mdb-ripple-color="dark"
               ><i class="fab fa-twitter"></i
@@ -131,7 +135,7 @@
             <!-- Instagram -->
             <a
               class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
+              href="https://www.instagram.com/manhwadeu/?next=%2F"
               role="button"
               data-mdb-ripple-color="dark"
               ><i class="fab fa-instagram"></i
@@ -146,8 +150,8 @@
       
         <!-- Copyright -->
         <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          @email:
+          <a class="text-dark" href="https://mdbootstrap.com/">manhwadeu@yahoo.com</a>
         </div>
         <!-- Copyright -->
       </footer>
