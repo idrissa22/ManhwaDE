@@ -71,11 +71,22 @@ body {
 }
 #news {
     padding: 4%;
+    margin: 4%;
+    border-radius: 7px;
+    box-shadow:   0 4px 8px 0 rgb(53 105 128 / 30%),0 6px 20px 0 rgb(165 200 213 / 41%);
    
+}
+.card-title{
+font-size: 1.6rem;
+
 }
 #ranking{
     padding: 4%;
     display: none;
+    margin: 4%;
+    border-radius: 7px;
+    box-shadow:   0 4px 8px 0 rgb(53 105 128 / 30%),0 6px 20px 0 rgb(165 200 213 / 41%);
+   
 }
 #ü h1{
     display: flex;
@@ -301,9 +312,11 @@ h4 {
 #db {
     border: 0.8px solid grey;
     margin-top: 10px;
-    box-shadow: 1px 1px 3px ;
-
+  box-shadow:   0 4px 8px 0 rgb(53 105 128 / 30%),0 6px 20px 0 rgb(165 200 213 / 41%);
 }
+
+
+
 #section {
     
     padding: 2%;
@@ -344,6 +357,10 @@ border-radius:  0px 0px 4px 4px;
     height: 500px;
     width: 40%;
   }
+  .card-title{
+    font-size: 2rem;
+    
+    }
 
  
   
