@@ -53,12 +53,20 @@ function se(message,rt) {
     })
   
   }
+  var hall ="#"
+  var shrink ="https://shrinke.me/Manhwas"
+  
 
 app.get("/", (req,res)=> {
    
-    res.render("ha.ejs",{ft:ft})
+    res.render("ha.ejs",{ft:ft, was: shrink})
 })
-
+app.post("/shrink", async(req,res)=> {
+ console.log("hallo")
+ 
+  res.render("ha.ejs",{ft:ft,was:hall})
+  
+    })
 app.get ("/Ars", (req,res) => {
     res.render("Ars.ejs")
     })
@@ -98,8 +106,8 @@ console.log(kl)
         const ab = `Ihr Ranking wurde abgeschickt <br> Wir laden ihre Ranking hoch und kontaktieren ${req.body.email}`
         res.render("ab.ejs",{ab: ab})
     })
-    app.post("/suchen", async(req,res)=> {
-
+    app.post("/suchen", (req,res)=> {
+res.render("suchen.ejs")
     })
 app.listen(process.env.PORT)
 
