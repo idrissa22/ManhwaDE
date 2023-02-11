@@ -65,15 +65,12 @@
               </li>
             </ul>
             <form id="l"  role="search" method="post" action="/suchen">
-              <div id="suchj">
-              <input id="such" class="form-control me-2" type="search" placeholder="Suche nach Manhwa Artikel" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </div>
-            <div id="lo">
-             <div id="bif">
-
-             </div>
-            </div>
+              <button id="flex"  type="submit">
+                
+                
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+              
+              </button>
             </form>
           </div>
         </div>
@@ -262,18 +259,6 @@ var news = document.querySelector("#news")
 var man = document.querySelector("#man")
 var ranking = document.querySelector("#ranking")
 
-var such= document.querySelector("#such")
-var suchm= document.querySelector("#bif")
-
-
- let data=[
- {
- "Titel": "10 Horror Manhwa", "Verfasser": "Von: MaxManhwa", "Link": "/zwei","Cover": "Solo Leveling.jpg"
-},
-{"Titel": "Manhwa","Verfasser": "Von: MaxManhwa","Link": "/zwei","Cover": "Solo Leveling.jpg"
-}
- ];
- 
 
 
         var ne = document.querySelector("#ne").addEventListener("click", (e)=> {
@@ -316,66 +301,6 @@ var ra = document.querySelector("#ra").addEventListener("click", (e)=> {
     
 
 
-
-such.addEventListener("input", (e) => {
-var value = e.target.value.toLowerCase();
-console.log(value)
-
-
-  console.log("value"+value)
-  const suchmachine = data.filter((dat) => {
-return(
-dat.Titel.toLowerCase().includes(value)
-)
-
-})
-suchmaschineergebnis(suchmachine,value)
-console.log(suchmachine)
-
-
-
-
-})
-const suchmaschineergebnis = (suchmachine,value) => {
-  var htmlstring;
-  if(value !== "") {
-  
-
-
- htmlstring= suchmachine.map((character) => {
- return `
- <section id="sec">
-
-  <div id="fotob">
-    <img id="fo"   src="${character.Cover}" alt="">
-    </div >
-  <div id="over" >
-  <div  id="suchb">
-  
-  <a href="${character.Link}" <h20>${character.Titel} </h20> </a> 
-  
-  </div>
-
-<div >
-  <p>  ${character.Verfasser} </p>
-
-  </div>
-  </div>
-  
-  </section>
- `
-})
-  
-.join("")
-suchm.innerHTML= htmlstring;
-  
-}
-else {
-  console.log("no")
-  suchm.innerHTML="";
-
-}
-}
 
       </script>
 

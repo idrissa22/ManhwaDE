@@ -126,49 +126,7 @@ font-size: 1.6rem;
     border-radius: 0px;
     border-radius: 1.2%;
 }
-#suchb {
-    display: flex;
-}
-.dis {
-    background-color: grey;
-   border-radius: 4px;
-   padding-left: 5px;
-   color: white;
-   font-weight: bold;
-   font-size: 1.07rem;
-}
-#sec {
-    display: flex;
-    margin-top: 4px;
-    
-}
-#sec:hover {
-    background-color: beige;
-}
-#fo {
-border-radius: 2px;
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-}
-#fotob {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#over {
-    margin-left: 13px;
-}
 
-#over a {
-    text-decoration: none;
-   font-weight: bolder;
-}
-#over p {
-    font-weight: 50;
-    color: grey;
-    font-size: 10px;
-}
 
 #hinzufügen {
     border-radius: 3px;
@@ -176,6 +134,13 @@ border-radius: 2px;
     background-color: #6B3B84;
   color: white;
     font-weight: bolder;
+}.dis {
+    background-color: grey;
+   border-radius: 4px;
+   padding-left: 5px;
+   color: white;
+   font-weight: bold;
+   font-size: 1.07rem;
 }
 #hinzufügen:hover {
     background: grey;
@@ -213,8 +178,7 @@ width: 0%;
     width: 100%;
 }
 .body {
-    background-color: rgb(117, 117, 117);
-
+    background: linear-gradient(to bottom, #ff00ff 0%, #666699 90%);
 }
 .title {
     display: flex;
@@ -224,6 +188,21 @@ width: 0%;
     font-weight: bolder;
     
     color: white;
+}
+#flex {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 370px;
+    height: 37px;
+  border: 0px;
+    background-color: white;
+     border-radius: 50px;
+     padding-right: 5%;
+}
+#flex:hover {
+    border: 2px solid rgb(16, 16, 33);
+
 }
 .title i {
     margin-right: 5px;
@@ -346,6 +325,7 @@ border-radius:  0px 0px 4px 4px;
 }
 
 
+
 @media only screen and (min-width: 760px) {
    
   .card-img-top {
@@ -360,6 +340,10 @@ border-radius:  0px 0px 4px 4px;
   .card-title{
     font-size: 2rem;
     
+    }
+    #flex {
+        width: 300px;
+        height: 35px;
     }
 
  

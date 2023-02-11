@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>manhwadeu</title>
+    
+</head>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        padding:0;
+        margin:0;
+        background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    }#fl {
+    width: 91%;
+    height: 37px;
+    margin-top: 3%;
+    margin-left: 5%;
+    
+   
+    
+    background-color: white;
+   
+  border-radius: 50px;
+    
+}
+#such {
+    border: none;
+    outline:none;
+   
+    width:90%;
+    margin-left: 5%;
+    height: 80%;
+    
+    font-size: 1.7rem;
+    
+    
+}
+
+
+#bif {
+   background-color: white;
+   margin-top: 3%;
+   border-radius: 10px;
+   width: 90%;
+   margin-left: 5%;
+   padding: 1%;
+}#suchb {
+    display: flex;
+}
+#suchb a {
+font-size: 1.5rem;
+}
+#sec {
+    display: flex;
+    margin-top: 10px;
+    
+}
+#sec:hover {
+    background-color: beige;
+}
+#fo {
+border-radius: 2px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+#fotob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#over {
+    margin-left: 13px;
+}
+
+#over a {
+    text-decoration: none;
+   font-weight: bolder;
+}
+#over p {
+    font-weight: 50;
+    color: grey;
+    font-size: 15px;
+}
+</style>
+<body>
+  
+  <div id="fl">
+   <input id="such" type="text" >
+   
+  </div>
+
+  <div id="bif">
+    <h1>Such Ergebnisse.....</h1>
+
+  </div>
+
+
+
+
+
+
+
+
+    <script>
+    
+        var such= document.querySelector("#such")
+        var suchm= document.querySelector("#bif")
+        
+        let data=[
+         {
+         "Titel": "10 Horror Manhwa", "Verfasser": "Von: MaxManhwa", "Link": "/zwei","Cover": "Solo Leveling.jpg"
+        },
+        {"Titel": "Manhwa","Verfasser": "Von: MaxManhwa","Link": "/zwei","Cover": "Solo Leveling.jpg"
+        }
+         ];
+         
+        
+         such.addEventListener("input", (e) => {
+        var value = e.target.value.toLowerCase();
+        console.log(value)
+        
+        
+          console.log("value"+value)
+          const suchmachine = data.filter((dat) => {
+        return(
+        dat.Titel.toLowerCase().includes(value)
+        )
+        
+        })
+        suchmaschineergebnis(suchmachine,value)
+        console.log(suchmachine)
+        
+        
+        
+        
+        })
+        const suchmaschineergebnis = (suchmachine,value) => {
+          var htmlstring;
+          if(value !== "") {
+          
+        
+        
+         htmlstring= suchmachine.map((character) => {
+         return `
+         <section id="sec">
+        
+          <div id="fotob">
+            <img id="fo"   src="${character.Cover}" alt="">
+            </div >
+          <div id="over" >
+          <div  id="suchb">
+          
+          <a href="${character.Link}" <h2>${character.Titel} </h2> </a> 
+          
+          </div>
+        
+        <div >
+          <p>  ${character.Verfasser} </p>
+        
+          </div>
+          </div>
+          
+          </section>
+         `
+        })
+          
+        .join("")
+        suchm.innerHTML= htmlstring;
+          
+        }
+        else {
+          console.log("no")
+          suchm.innerHTML="";
+        
+        }
+        }
+        
+        </script>
+</body>
+
+</html>
