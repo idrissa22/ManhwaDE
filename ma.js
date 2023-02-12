@@ -89,7 +89,7 @@ console.log(kl)
     app.post("/newsab", async(req,res)=> {
         console.log(req.body)
 
-        const ab = `Ihr News wurde abgeschickt <br> Wir laden ihre Nachrichten hoch und kontaktieren ${req.body.email}`
+        const ab = `Ihr Mitteilung wurde abgeschickt Wir laden ihre Nachrichten hoch und kontaktieren ${req.body.email}`
         var fg= JSON.stringify(req.body.Verfasser)
         var df=JSON.stringify(req.body);
         message= df;
@@ -103,7 +103,7 @@ console.log(kl)
         var g= JSON.stringify(req.body.titel)
         rt = g+" News"
         se(message,rt)
-        const ab = `Ihr Ranking wurde abgeschickt <br> Wir laden ihre Ranking hoch und kontaktieren ${req.body.email}`
+        const ab = `Ihr Ranking wurde abgeschickt Wir laden ihre Ranking hoch und kontaktieren ${req.body.email}`
         res.render("ab.ejs",{ab: ab})
     })
     app.post("/suchen", (req,res)=> {
