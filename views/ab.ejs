@@ -1,24 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>ManhwaDEU</title>
    
 </head>
 
 <style>
    body{
-    background-color: greenyellow;
-   }     
+      font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+   }     section {
+      width: 90%;
+      margin-top: 20%;
+      height: 700px;
+      margin-left: 5%;
+      border-radius: 10px;
+     box-shadow: 0 4px 8px 0 rgb(53 105 128 / 30%),0 6px 20px 0 rgb(165 200 213 / 41%); 
+   }
+   .fa-regular {
+      color: rgb(5, 5, 20);
+font-size: 6rem;
+font-weight: bold;
+justify-content: center;
+}
+#check {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+}
+h2 {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding: 5%;
+ color:  rgb(5, 5, 20);
+   font-weight: bolder;
+}
+@media only screen and (min-width: 540px) {
+   section {
+      height: 600px;
+      margin-top: 3%;
+   }
+}
+#lo {
+   display: flex;
+}
+a {
+   color: black;
+   font-size: 1.5rem;
+   margin: 1%;
+}
 </style>
 <body>
-   <h1> <%= ab %></h1>
-    
+   <div id="lo">
+     <a href="/">Home</a>
+      
+   </div>
+   <section>
+   <div id="check">
+
+   <i class="fa-regular fa-circle-check"></i>
+   </div>
+   
+   <h2> <%=ab%></h2>
+</section>
 </body>
 </html>

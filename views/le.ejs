@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manhwa Rankings von verschiedenen Genres findest du auf ManhwaDEu">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="Artikel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -11,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
-    <title>ManhwaDEU</title>
+    <title>Manhwa Ranking Deutsch</title>
 </head>
 <body>
     
@@ -81,7 +82,7 @@
       
       <div class="card"  style="border: 0px; ">
         <section id="head"> <h1 id="nummer"><%= x.Nummer %></h1>   <h5 class="card-title" > <%= x.Titel %> </h5></section> 
-         <img class="card-img-top"      src="<%= x.Cover %>" alt="Card image cap">
+         <img class="card-img-top"      src="<%= x.Cover %>" alt="Manhwa Cover von <%= x.Titel %>">
         
          <div class="card-body">
           <div class="dis" > Status: <%= x.status %></div>

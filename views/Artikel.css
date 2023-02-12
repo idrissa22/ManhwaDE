@@ -134,7 +134,8 @@ font-size: 1.6rem;
     background-color: #6B3B84;
   color: white;
     font-weight: bolder;
-}.dis {
+}
+.dis {
     background-color: grey;
    border-radius: 4px;
    padding-left: 5px;
@@ -193,7 +194,7 @@ width: 0%;
     display: flex;
     justify-content: end;
     align-items: center;
-    width: 370px;
+    width: 340px;
     height: 37px;
   border: 0px;
     background-color: white;
@@ -348,4 +349,10 @@ border-radius:  0px 0px 4px 4px;
 
  
   
+}
+@media only screen and (max-width: 330px) {
+    #flex {
+        width: 250px;
+        height: 35px;
+    }
 }
