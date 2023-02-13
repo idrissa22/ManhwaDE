@@ -278,6 +278,7 @@ h4 {
     width: 48%;
     height: 250px;
     border-radius: 5px 5px 0px 0px;
+    object-fit: cover;
 }
 .dropdown-item {
     color: white;
@@ -302,12 +303,12 @@ h4 {
     padding: 2%;
 }
 #hj h1 {
-    color: white;
+    color: Black;
 }
 #con {
-    background-color: #6B3B84;
+    background-color: white;
     padding: 2%;
-    box-shadow: 20px 20px 100px rgba(0, 0, 0,0.57);
+    box-shadow: 0 4px 8px 0 rgb(53 105 128 / 30%),0 6px 20px 0 rgb(165 200 213 / 41%); 
     border-radius: 2%;
 }
 #kj {
@@ -355,4 +356,11 @@ border-radius:  0px 0px 4px 4px;
         width: 250px;
         height: 35px;
     }
+}
+.beschreibung {
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-top: 20px;
 }
