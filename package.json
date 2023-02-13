@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "main":"/ma.js
+    "main":"/ma.js,
     "scripts": {
           "start": "node ma.js"
        },
