@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "main": "ma.js",
+    "main": "index.js",
     "scripts": {
-          "start": "node ma.js"
+          "start": "node index.js"
        },
     "apify-client": "^2.6.2",
     "assert": "^2.0.0",
