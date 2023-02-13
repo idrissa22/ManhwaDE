@@ -60,7 +60,11 @@ function se(message,rt) {
 app.get("/", (req,res)=> {
    
     res.render("ha.ejs",{ft:ft, was: shrink})
+    message="Eine Person hat deine Website besucht"
+    rt="Website Besucher"
+        se(message,rt)
 })
+
 app.post("/shrink", async(req,res)=> {
  console.log("hallo")
  
