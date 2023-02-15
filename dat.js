@@ -277,6 +277,78 @@ Link:"https://shrinke.me/Manhwas",status:"am Laufen"
 },{ Beschreibung:"Die Nachricht, dass neue Kapitel veröffentlicht werden, wurde von vielen begeistert aufgenommen und es ist nun offiziell bestätigt. Bereits drei Kapitel sind veröffentlicht worden und Fans können nun weiterlesen und herausfinden, wie die Geschichte weitergeht."}]
   
 
+}},
+//Business Manhwa
+{Horror:{
+    Titel: "Die 9 Besten Business Manhwas",
+    Beschreibung: "Manhwas über Business!!",
+    Datum: "Datum: 15.02.2023",
+    Verfasser: "Von: MaxManhwa",
+    Manhwas:[{ 
+        Titel: "Coin Revenge",
+        Nummer:"9",
+        Beschriftung:"Yoo Beom, ein genialer College-Student, der seine Familie durch eine Organisation verlor, die Kryptowährungspreise manipulierte. Er beschließt, Rache zu nehmen, verbirgt seine Identität und infiltriert die Kryptowährungs-Gangsterorganisation ONE. Er benutzt sein geniales Gehirn, um eine blutige Rache an der Kryptowährungsorganisation zu beginnen, die sein Leben ruiniert hat. Dies ist eine neue Kryptowährungskriminalität Noir-Arbeit.",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/coinrevenge.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676477645983",
+        status:"Laufend",
+        Link:"https://shrinke.me/Manhwas"
+    },{ 
+        Titel: "Again My Life",
+        Nummer:"8",
+        Beschriftung:"Ein heißblütiger Staatsanwalt, Kim Hi Wu, wurde ermordet und im Ozean versenkt, während er den Tyrannen jagte, der Korea kontrollierte. Aber Kim Hi Wu trifft einen Sensenmann, der ihm die Chance gibt, ihn wieder zu erleben und ihn zurück schickt, als er 18 Jahre alt war. Als Highschool-Schüler bereitet sich Kim Hi Wu darauf vor, den Tyrannen Jo Tae Sup zu bestrafen.",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/againmylife.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676476576103",
+        status:"Abgeschlossen",
+        Link:"https://shrinke.me/Manhwas"
+    },{ 
+        Titel: "From the Grave and Back",
+        Nummer:"7",
+        Beschriftung:"Hey, lass dich nicht verwirren. Ich habe dich nie als meinen kleinen Bruder betrachtet. Du kennst nicht einmal deinen richtigen Ort. Das war der Dolch, der am meisten schmerzte. Han Myoung Woo.Ein Kind einer wohlhabenden Familie mit schnellem Verstand. Aber Gott gab ihm nicht alles. Eine fast unheilbare genetische Herzkrankheit. Er tat sein Bestes, um sich den Respekt der Menschen um ihn herum zu verdienen. Aber sein Vater, der Vorsitzende und seine Familienangehörigen nahmen ihn nie ernst. Da traf ihn plötzlich ein Unfall. Und... Er wachte im Körper der schwer verletzten Studentin Kim Cheol Min auf.",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/fromthefraveback.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676476443875",
+        status:"Laufend",
+        Link:"https://shrinke.me/Manhwas"
+    },{ 
+        Titel: "The Strongest Manager in History",
+        Nummer:"6",
+        Beschriftung:"What kind of hunter works without management these days? 20 years after the first appearance of monsters, hunters need managers these days.",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/thestrongestmanager.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676476163449",
+        status:"Laufend",
+        Link:"https://shrinke.me/Manhwas"
+    },{ 
+        Titel: "The Lord of Money",
+        Nummer:"5",
+        Beschriftung:"Cheon Joong Myung, der dritte Sohn des CEO des fünftreichsten Unternehmens, der Ji Gyoung Group. Und sein Assistent, der unter ihm arbeitet, Seong Chang Ook. Während Seong Chang Ook versuchte, Cheon Joong Myung zu töten und als Unfall zu vertuschen, wurde Seong Chang Ook zusammen mit seinem Chef versehentlich durch einen Stromschlag getötet. Dann finden sie sich in den Körpern des anderen gefangen ... Du willst, dass ich ein Playboy-Konglomerat werde, das die Welt noch nie zuvor gesehen hat? Ich öffne die Türen zur Hölle, wenn ich das tue. Dies ist der Beginn des endlosen Marsches von Cheon Joong Myung, dem Herrn des Geldes.",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/thelordofmoney.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676476246484",
+        status:"Laufend",
+        Link:"https://shrinke.me/Manhwas"
+    },{ 
+        Titel: "Real Man",
+        Nummer:"4",
+        Beschriftung:"Yuhyeon wird der jüngste CEO von Hansung, einem erfolgreichen Elektronikunternehmen, das auf einer toxischen Arbeitskultur aufbaut, aber niemand, der ihm wichtig ist, ist da, um mit ihm zu feiern. Nach einer durchzechten Nacht und der Frage, ob er die Vergangenheit ändern könnte, wacht er am nächsten Morgen auf, 20 Jahre jünger zu Beginn seiner Karriere. Bewaffnet mit der Erfahrung und den Einsichten, die ihn zum CEO gemacht haben, beginnt Yuhyeon, zerbrochene Beziehungen zu überdenken und die Wegbereiter von Hansungs mörderischem Arbeitsumfeld zu bekämpfen. Aber er weiß noch nicht, wie sich die Veränderung der Vergangenheit auf seine Arbeit auswirken wird.",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/realman.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676475797977",
+        status:"Laufend",
+        Link:"https://shrinke.me/Manhwas"
+    },{ 
+        Titel: "The Chaebeol's Youngest Son",
+        Nummer:"3",
+        Beschriftung:"Um 13 Jahre harte Arbeit durch Verrat zurückzubekommen! Yoon Hyun-woo, der Chef der Sunyang-Gruppe, der wie ein Diener lebte und verlassen wurde. Gerade als er dachte, es sei alles vorbei, wachte er als Jin Do-jun auf, der Enkel des Vorsitzenden der Sunyang Group, Jin! Jin Do-jun, der jüngste Sohn einer Chaebol-Familie, ist jedoch weit davon entfernt, das Recht zu erben. Wird er in der Lage sein, der endgültige Gewinner in einem familienpolitischen Drama zu werden? Yoon Hyun-woos berauschendes Rachedrama, um die Sunyang-Gruppe zu verschlingen, beginnt!",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/thechaebeol.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676475647188",
+        status:"Laufend",
+        Link:"https://shrinke.me/Manhwas"
+    },{ 
+        Titel: "Return of the Legend",
+        Nummer:"2",
+        Beschriftung:"Aufgrund der Situation wie der zweite IWF, für die die Sicherheitsfirma Jang Taesan gearbeitet hat, geht bankrott, und er wird ein arbeitsloser Mann, der durch Noryangjin-dong wandert. Er verliert sein Leben bei der Rettung eines Grundschülers, der fast von einem Auto angefahren wurde. Doch dank seiner guten Tat geht er 14 Jahre zurück in die Vergangenheit und wird in ein neues Leben aufgenommen. Die Freude, wiederbelebt zu werden, ist jedoch nur von kurzer Dauer. Der Gedanke, wieder die Aufnahmeprüfung für das College ablegen zu müssen, macht mich schwindelig... Aber ich erinnere mich an all die CSAT-Probleme, auf die ich während des Studiums gestoßen bin, und an die Börsenkurve, die ich während meiner Arbeit als Börsenmakler gesehen habe...?! Das letzte Leben war ruiniert, aber das nächste Leben wird ein Erfolg werden!",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/returnthelegend.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676475459255",
+        status:"Laufend",
+        Link:"https://shrinke.me/Manhwas"
+    },{ 
+        Titel: "Past Life Regressor",
+        Nummer:"1",
+        Beschriftung:"Möchten Sie die Zeit umkehren?] [Alle deine Fähigkeiten werden zurückgesetzt.] [Bitte wählen Sie das Datum.] 28. Februar 1985. Der Tag, an dem ich geboren wurde. Finanzkraft. Ich werde alles Glück der Welt sammeln – und schaffen ein Monopol. Ich werde alle Kerker der Welt monopolisieren. Ich werde das jetzt tun, solange die Welt noch friedlich ist... bevor alles beginnt.",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/pastliferegressor.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676475356758",
+        status:"Laufend",
+        Link:"https://shrinke.me/Manhwas"
+    },]
+
 }}]
 
 module.exports= house;
