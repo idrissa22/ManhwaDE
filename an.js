@@ -2,7 +2,7 @@ var ft = [{
     Titel: "Die 9 Besten Business Manhwas",
     Beschreibung: "In der Welt der Manhwa gibt es viele Geschichten über verschiedene Themen, einschließlich Liebe, Action, Drama und Abenteuer. Aber einige der faszinierendsten Manhwa handeln vom Geschäftsleben und zeigen, wie Menschen durch harte Arbeit, Entschlossenheit und Innovation ihre Träume verwirklichen und ihre Karrieren aufbauen. In diesem Ranking werden.... ",
    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/Return-of-the-Legend.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676477103025",
-   Link:"/3Busi"
+   link:"/3Busi"
 },{ Titel: "Die 15 Besten Manhwa mit Leveling System",
 Beschreibung:  " Manhwa, koreanische Comics und Graphic Novels, bieten eine große Vielfalt an Geschichten und Genres.          Eines der beliebtesten Themen in Manhwa ist das Leveling-System, bei dem die Charaktere durch das Abschließen von Aufgaben oder das Besiegen von Gegnern Erfahrungspunkte sammeln und aufsteigen können, was ihnen zusätzliche Fähigkeiten und Stärke verleiht.",
 Cover: "https://ik.imagekit.io/idrissa66/Manhwa/__leveling_system__cheat_skill_manhwa.jfif?ik-sdk-version=javascript-1.4.3&updatedAt=1676473685898",
