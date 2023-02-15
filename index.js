@@ -75,7 +75,8 @@ app.get ("/Ars", (req,res) => {
     res.render("Ars.ejs")
     })
 app.get ("/businessmanhwa", (req,res) => {
-    res.render("le.ejs")
+    var kj= lo[4]
+    res.render("le.ejs",{sat:kj})
     })
 var tgh= lo[2]
 var kl= lo[3]
