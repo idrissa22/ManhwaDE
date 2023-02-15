@@ -74,6 +74,9 @@ app.post("/shrink", async(req,res)=> {
 app.get ("/Ars", (req,res) => {
     res.render("Ars.ejs")
     })
+app.get ("/businessmanhwa", (req,res) => {
+    res.render("le.ejs")
+    })
 var tgh= lo[2]
 var kl= lo[3]
 console.log(kl)
