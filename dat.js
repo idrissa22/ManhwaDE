@@ -308,7 +308,7 @@ Link:"https://shrinke.me/Manhwas",status:"am Laufen"
     },{ 
         Titel: "The Strongest Manager in History",
         Nummer:"6",
-        Beschriftung:"What kind of hunter works without management these days? 20 years after the first appearance of monsters, hunters need managers these days.",
+        Beschriftung:"Welcher Hunter arbeitet heute noch ohne Management? 20 Jahre nach dem ersten Auftreten von Monstern brauchen Hunter heute Manager.",
         Cover:"https://ik.imagekit.io/idrissa66/Manhwa/thestrongestmanager.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676476163449",
         status:"Laufend",
         Link:"https://shrinke.me/Manhwas"
