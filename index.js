@@ -65,18 +65,9 @@ app.get("/", (req,res)=> {
         se(message,rt)
 })
 
-app.post("/shrink", async(req,res)=> {
- console.log("hallo")
- 
-  res.render("ha.ejs",{ft:ft,was:hall})
-  
-    })
+
 app.get ("/Ars", (req,res) => {
     res.render("Ars.ejs")
-    })
-app.get ("/businessmanhwa", (req,res) => {
-    var kj= lo[4]
-    res.render("le.ejs",{sat:kj})
     })
 var tgh= lo[2]
 var kl= lo[3]
@@ -84,7 +75,14 @@ console.log(kl)
     app.get("/top15", (req,res) => {
       res.render("le.ejs",{sat:tgh})
     })
-
+    app.get("/businessmanhwa", (req,res) => {
+      var jk= lo[4]
+      res.render("le.ejs",{sat:jk})
+    })
+    app.get("/sportmanhwa", (req,res) => {
+      var jk= lo[5]
+      res.render("le.ejs",{sat:jk})
+    })
     app.get ("/ManhwaSeiten", (req,res) => {
       var fk= ManhwaSeiten[0]
       res.render("ManhwaSeiten.ejs",{Manhwas: fk})
