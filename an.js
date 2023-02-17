@@ -1,4 +1,10 @@
 var ft = [{
+    Titel:"7 Sport Manhwa",
+    Beschreibung:"Sport-Manhwa sind koreanische Comics, die sich auf sportliche Aktivitäten konzentrieren und oft dramatische Geschichten erzählen, die um Training, Wettbewerb und Leidenschaft für den Sport herum aufgebaut sind. Die Kombination aus fesselnden Charakteren und packenden Sportarten hat dazu geführt, dass viele Leser von Sport-Manhwa begeistert sind. In diesem Ranking präsentiere ich die Top 5 Sport-Manhwa, die jeder Sportliebhaber unbedingt lesen sollte. Von epischen Basketballmatches...",
+    Cover:"https://ik.imagekit.io/idrissa66/Manhwa/theboxerr.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676660456734",
+    link:"/sportmanhwa"
+
+},{
     Titel: "Die 9 Besten Business Manhwas",
     Beschreibung: "In der Welt der Manhwa gibt es viele Geschichten über verschiedene Themen, einschließlich Liebe, Action, Drama und Abenteuer. Aber einige der faszinierendsten Manhwa handeln vom Geschäftsleben und zeigen, wie Menschen durch harte Arbeit, Entschlossenheit und Innovation ihre Träume verwirklichen und ihre Karrieren aufbauen. In diesem Ranking werden.... ",
    Cover: "https://ik.imagekit.io/idrissa66/Manhwa/Return-of-the-Legend.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676477103025",

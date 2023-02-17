@@ -349,6 +349,71 @@ Link:"https://shrinke.me/Manhwas",status:"am Laufen"
         Link:"https://shrinke.me/Manhwas"
     },]
 
-}}]
+}},{Horror:{
+    Titel:"7 Sport Manhwa",
+    Beschreibung: "Das sind 5 Sport Manhwa die du gesehen haben musst!!",
+    Datum: "Datum: 17.02.2023",
+    Verfasser: "Von: MaxManhwa",
+    Manhwas:[{
+
+        Titel:"Winning Shot!",
+        Nummer:"7",
+        Beschriftung:"Ahn Shiyun ist ein Pitcher, dem es nichts ausmacht, dass sein Team eine Pechsträhne hat, solange er Baseball spielen kann. Nachdem er seinen Traum in der Mittelschule fortgesetzt hat, beginnt sich sein Leben zu ändern, als er Baek Tae-Oh, einen Catcher des gegnerischen Teams, trifft. Dies ist die Geschichte von erstaunlichen Menschen, die mächtige Gewinnschüsse auf die Spitze der Highschool-Baseball-Elite werfen können!",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/winningshot.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676649344276",
+        status:"Laufend",
+        Link:"",
+
+    },{
+Titel:"The Fighting Monster",
+Nummer:"6",
+Cover:"https://ik.imagekit.io/idrissa66/Manhwa/the-fighting-monster-193x278.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676658707499",
+Beschriftung:"Ich bin der GRÖSSTE Taekwondo-Kämpfer aller Zeiten. Das hat der MC immer geglaubt und eine Aussage, die sich als wahr herausgestellt hat. Aber kurz bevor sein Name in die Geschichte einging, wurde er in eine andere Welt versetzt. Wenn normale Leute versuchten, zurückzukommen, beschloss er, auch dort die Nummer 1 zu werden, bevor er zurückkehrte.",
+status:"Laufend",
+Link:""
+    },{Titel:"Boss in School",
+    Nummer:"5",
+    Beschriftung:"Seth Kwon ist ein geborener Krieger. Er hat nie Kampfkunst praktiziert, es ist etwas Angeborenes in ihm. Aber als er einen seiner Kameraden in einem abscheulichen Zustand zurückließ, ließ ihn seine Mutter versprechen, nie wieder gegen eine andere Person zu kämpfen. Seth hat seinen Vater nie kennengelernt, aber er hat sich immer aus dem Schatten um ihn gekümmert. Wegen des Versprechens, das er gab, wurde Seth gemobbt und fast jeden Tag verprügelt. Er hat sich nie gewehrt. Sein Vater hat alles miterlebt, und als seine Zeit gekommen war, verließ er diese Erde und hinterließ ihm seinen letzten Wunsch: Hör auf, dir in den getreten zu werden. Von diesem Moment an war ein Monster wieder auf freiem Fuß. Und er erbte das Yakuza-Reich von seinem Vater. Der furchterregendste Gangster aller Zeiten ist ein 17-jähriger Kaki, der sich nach Jahren des Zurückhaltens austoben.",
+    Cover:"https://ik.imagekit.io/idrissa66/Manhwa/bossinschool.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676659003785",
+    status:"Abgeschlossen",
+    Link:"",
+
+
+    },{
+        Titel:"Build Up",
+        Nummer:"4",
+        Beschriftung:"Maru Kang war nur ein gewöhnliches Kind mit gewöhnlichen Interessen, bis sein Vater ihn eines Tages zwingt, ein Fußballspiel im Fernsehen zu sehen, was eine Obsession für den Sport auslöst. Voller Entschlossenheit setzt er sich ein neues Ziel - ein erstaunlicher Fußballspieler zu werden! Das einzige Problem ist, dass er bereits an seiner High School zum König der Verlierer ausgerufen wurde. Kann Maru die Hindernisse auf seinem Weg überwinden und sich in einen talentierten und erfolgreichen Fußballspieler verwandeln?",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/buildup.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676649248201",
+        status:"Laufend",
+        Link:"",
+
+    },{
+        Titel:"King of the Octagon",
+        Nummer:"3",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/thekingofoctagon.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676649117082",
+        Beschriftung:"Die aufregende MMA-Eroberung eines genialen Rookie-Kämpfers Wheesung, der ein vielversprechender Sportler mit einem natürlichen Sinn für Bewegung, hörte in der High School aufgrund einer Verletzung auf zu trainieren und lebt ein Teilzeitleben. In der Zwischenzeit ist er zum Match des MMA-Amateurs Junghwan eingeladen ... Er fühlt einen starken Nervenkitzel über die Kraft von Octagon, dem er zum ersten Mal begegnet. Der 22-jährige Hwi-sung Lee, der damit beschäftigt war, wegzulaufen, nachdem er alles aufgegeben hatte. In dem Moment, in dem er ins Octagon steigt, beginnt ein spektakulärer Flug, den niemand erwartet hat.",
+        status:"Laufend",
+        Link:"",
+
+    },{
+        Titel:"The Boxer",
+        Nummer:"2",
+        Beschriftung:"Ein unvorstellbares Talent ohne Rivalität. Wird es sich als Segen oder Fluch erweisen?",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/theboxer.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676648925039",
+        status:"Abgeschlossen",
+        Link:"https://shrinke.me/Manhwas",
+
+    },{
+        Titel:"Wind Breaker",
+        Nummer:"1",
+        Cover:"https://ik.imagekit.io/idrissa66/Manhwa/windbreaker.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676648744551",
+        Beschriftung:"Jo Ja-Hyun (Jay) ist der Studentenpräsident der Taeyang (Sunny) High. Er ist nicht nur ein kluger Schüler, sondern ein Extrembiker mit hohen Techniken. Wenn Sie seinem Fahrrad folgen, werden Sie seine Freunde, Liebe und Abenteuer treffen.",
+        status:"Laufend",
+        Link:"https://shrinke.me/Manhwas",
+
+    }]
+
+}
+
+}]
 
 module.exports= house;
