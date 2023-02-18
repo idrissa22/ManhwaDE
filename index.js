@@ -1,13 +1,48 @@
 const express = require("express")
 const bodyparser= require("body-parser")
+const { ObjectID } = require("mongodb");
 
+const mongoose=require("mongoose")
+
+  
+  
 const eins = require("./eins")
 const zwei = require("./zwei")
 var ManhwaSeiten= require("./Manhwas")
 const nodemailer= require("nodemailer")
 require("dotenv").config();
 
+mongoose
+.connect(process.env.MONGOOSE)
+.then(()=>console.log("mit der Datenbank verbunden"))
+.catch((err)=>console.log(err))
 
+const User = mongoose.model('User', mongoose.Schema({
+
+    Horror:{
+       
+    Titel: String,
+   Beschreibung: String,
+   Datum: String,
+   Verfasser: String,
+   Bild:String,
+    Manhwas:[{
+        Titel:String,
+        Nummer:String,
+        Beschriftung:String,
+        status:String,
+        Cover: String,
+       Link:String
+       
+    }] ,
+    Text:[{
+        Beschreibung:String
+    }]
+  
+
+    }
+
+  }));
 
 
 var message;
@@ -73,15 +108,26 @@ var tgh= lo[2]
 var kl= lo[3]
 console.log(kl)
     app.get("/top15", (req,res) => {
-      res.render("le.ejs",{sat:tgh})
+      User.findOne({Titel:"Die Top 15 der Besten Manhwa"}, function(err, result) {
+     
+        res.render("le.ejs",{sat:result})
+        
+      });
     })
     app.get("/businessmanhwa", (req,res) => {
-      var jk= lo[4]
-      res.render("le.ejs",{sat:jk})
+    User.findOne({Titel:"Die 9 Besten Business Manhwas"}, function(err, result) {
+     
+      res.render("le.ejs",{sat:result})
+      
+    });
+     
     })
     app.get("/sportmanhwa", (req,res) => {
-      var jk= lo[5]
-      res.render("le.ejs",{sat:jk})
+      User.findOne({Titel:"7 Sport Manhwa"}, function(err, result) {
+     
+        res.render("le.ejs",{sat:result})
+        
+      });
     })
     app.get ("/ManhwaSeiten", (req,res) => {
       var fk= ManhwaSeiten[0]
