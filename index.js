@@ -1,6 +1,6 @@
 const express = require("express")
 const bodyparser= require("body-parser")
-
+const { ObjectID } = require("mongodb");
 
 const mongoose=require("mongoose")
 
@@ -108,14 +108,14 @@ var tgh= lo[2]
 var kl= lo[3]
 console.log(kl)
     app.get("/top15", (req,res) => {
-      User.findOne({Titel:"Die Top 15 der Besten Manhwa"}, function(err, result) {
+      User.findOne({_id:"63f0c9fad9584b2c259285ce"}, function(err, result) {
      
         res.render("le.ejs",{sat:result})
         
       });
     })
     app.get("/businessmanhwa", (req,res) => {
-    User.findOne({Titel:"Die 9 Besten Business Manhwas"}, function(err, result) {
+    User.findOne({_id:"63f0ca3a7d0c72a03a4c4d51"}, function(err, result) {
      
       res.render("le.ejs",{sat:result})
       
@@ -123,8 +123,8 @@ console.log(kl)
      
     })
     app.get("/sportmanhwa", (req,res) => {
-      User.findOne({Titel:"7 Sport Manhwa"}, function(err, result) {
-     
+      User.findOne({_id:"63f0ca5f5ce935612319891a"}, function(err, result) {
+     console.log(result)
         res.render("le.ejs",{sat:result})
         
       });
