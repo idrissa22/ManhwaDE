@@ -1,6 +1,6 @@
 const { DownloadItemsFormat } = require("apify-client");
 
-var house = [{Horror:{
+var house =[{Horror:{
     Titel: "Die 15 Besten Manhwa mit Leveling System",
     Beschreibung: "Manhwas mit dem beliebten Leveling System!!",
     Datum: "Datum: 02.02.2023",
